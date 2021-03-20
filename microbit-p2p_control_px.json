@@ -1,0 +1,28 @@
+{
+    "name": "p2p_control",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "radio": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.67",
+        "tag": "v3.0.67",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/b1dd6c3bcb9b2df57dfdd0bc4442971d81a1859d",
+        "target": "3.0.67",
+        "pxt": "6.0.39"
+    },
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "stack_size": 2048
+            }
+        }
+    }
+}
